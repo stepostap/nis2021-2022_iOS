@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" type="text/css" href="style.css" />
+          <script src="script.js"></script>
+          
+          <title>Калькулятор</title>
+     </head>
+     <body>
+          <form name="calc" class="wrapper">
+                <table cellpadding="7" cellspacing="0" class="main">
+                    <tr class = "display">
+                        <td colspan="4"><input type="text" id="screen"></td>
+                    </tr>
+                    <tr class="buttons">
+                         <td><input type="button" value="1" onclick="clk(1)"></td>
+                         <td><input type="button" value="2" onclick="clk(2)"></td>
+                         <td><input type="button" value="3" onclick="clk(3)"></td>
+                         <td><input type="button" value="+" onclick="clk('+')"></td>
+                    </tr>
+                    <tr class="buttons">
+                        <td><input type="button" value="4" onclick="clk(4)"></td>
+                        <td><input type="button" value="5" onclick="clk(5)"></td>
+                        <td><input type="button" value="6" onclick="clk(6)"></td>
+                        <td><input type="button" value="-" onclick="clk('-')"></td>
+                    </tr>
+                    <tr class="buttons">
+                        <td><input type="button" value="7" onclick="clk(7)"></td>
+                        <td><input type="button" value="8" onclick="clk(8)"></td>
+                        <td><input type="button" value="9" onclick="clk(9)"></td>
+                        <td><input type="button" value="*" onclick="clk('*')"></td>
+                    </tr>
+                    <tr class="buttons">
+                         <td><input type="reset" value="c" onclick="erase()"></td>
+                         <td><input type="button" value="0" onclick="clk(0)"></td>
+                         <td><input type="button" value="=" onclick="res()"></td>
+                         <td><input type="button" value="/" onclick="clk('/')"></td>
+                     </tr>
+               <table>
+          </form>
+     </body>
+</html>

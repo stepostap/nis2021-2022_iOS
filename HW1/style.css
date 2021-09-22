@@ -1,0 +1,40 @@
+.wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+    background:  #13af7b;
+    border-radius: 10px;    
+    border-width: 1;
+}
+
+.main {
+    margin: 0 auto ;
+    margin-top: 5px;
+    width: 280px;
+}
+
+.buttons input {
+    background:  #825ee6;
+    margin: 0 auto;
+    overflow: hidden;
+    border-width: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+.display input {
+    background:  #825ee6;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 24px;
+    border-width: 0;
+}
+
+
+

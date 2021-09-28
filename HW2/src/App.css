@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #858585;
+}
+
+.done input[type=text] {
+  color: #858585;
+}
+
+.TaskName {
+  padding: 10px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.TaskDescr{
+  display: flex;
+  align-self: center;
+  align-content: center;
+}
+
+#TodoInput {
+  padding-top: 50px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+#TodoInput input {
+  height: 30px;
+  width: 80%;;
+  padding-left: 10px;
+  background-color: #F2F3F8;
+  border: 1;
+}
+
+#TodoInput button {
+  padding: 5px 40px;
+  border: none;
+  background-color: #6b78db;
+  color: #fefefe;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+
+li {
+  width: 50%;
+  background-color: #6b78db;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  
+}
+
+li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background: none;
+  margin-top: 0 auto;
+}
+
+li input[type="text"]:focus {
+  background-color: #F2F3F8;
+  color: #37392E;
+}
+
+li button {
+  justify-content: flex-end;
+}
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width: 480px) {
+  li {
+    width: 90%;
+  }
+}
